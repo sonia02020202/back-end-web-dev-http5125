@@ -7,12 +7,14 @@ namespace Cumulative1.Controllers
     public class TeacherPageController : Controller
     {
         private readonly TeacherAPIController _api;
-        //Use the API to get Teacher info
+        
+        //Use the API to get Teacher information
+        
         public TeacherPageController(TeacherAPIController api)
         {
             _api = api;
         }
-        // Retrieve teachers by name in list format GET : TeacherPage/List
+        // Retrieve teachers by their name in list format GET : TeacherPage/List
         public IActionResult List()
         {
             List<Teacher> Teachers = _api.ListTeachers();
