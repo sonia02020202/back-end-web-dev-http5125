@@ -16,15 +16,12 @@ namespace Cumulative1.Controllers
         {
             _context = context;
         }
-        /// <summary>
-        /// It returns a list of Teachers in the system
-        /// an example
-        /// retrieves Teacher list GET api/Teacher/Listteacher -> 
-        /// 
-        /// <returns>
-        /// A list of the Teacher/Teachers
-        /// </returns>
-
+        // summary
+        //It returns a list of Teachers in the system
+        //an example
+        // retrieves Teacher list GET api/Teacher/Listteacher -> 
+        // Returns A list of the Teacher/Teachers
+    
 
         [HttpGet]
         [Route(template: "TeacherList")]
@@ -37,18 +34,18 @@ namespace Cumulative1.Controllers
             using (MySqlConnection Connection = _context.AccessDatabase())
             {
                 Connection.Open();
-                //create new query for our DB
+                //create new query for our Database
                 MySqlCommand Command = Connection.CreateCommand();
 
                 //SQL QUERY
                 Command.CommandText = "select * from teachers";
-                // Gather results of queries into a variable
+                // collect the results of queries into a variable
                 using (MySqlDataReader ResultSet = Command.ExecuteReader())
                 {
                     //Loop through each row from the results
                     while (ResultSet.Read())
                     {
-                        //retrieve the column info by the DataBase column name as an index
+                        //Get the column information by the Database column name as an index
                         int TeacherId = Convert.ToInt32(ResultSet["teacherid"]);
                         string TeacherFName = ResultSet["teacherfname"].ToString();
                         string TeacherLName = ResultSet["teacherlname"].ToString();
@@ -56,7 +53,7 @@ namespace Cumulative1.Controllers
                         DateTime hiredate = Convert.ToDateTime(ResultSet["hiredate"]);
                         double salary = Convert.ToDouble(ResultSet["salary"]);
 
-                        //short cut to set all properties while creating an object
+                        //short cut to set all the properties while creating an object
                         Teacher CurrentTeacher = new Teacher()
                         {
                             TeacherId = TeacherId,
@@ -79,13 +76,13 @@ namespace Cumulative1.Controllers
 
 
         }
-        /// <summary>
-        /// Returns a Teacher from the DB by their ID
-        /// </summary>
-        /// an example
-        /// GET api/Teacher/FindTeacher/7 -> 
-        ///Returns
-        /// Matching a Teacher by their ID. Empty results if teacher is not found
+        // <summary>
+        // Returns a Teacher from the DB by their ID
+        // </summary>
+        // an example
+        // GET api/Teacher/FindTeacher/7 -> 
+        //Returns
+        // Matching a Teacher by their ID. Empty results if teacher is not found
         
 
         [HttpGet]
@@ -99,7 +96,7 @@ namespace Cumulative1.Controllers
             using (MySqlConnection Connection = _context.AccessDatabase())
             {
                 Connection.Open();
-                //Established a new command (query) for our database
+                //Established a new command (query) for our DB (database)
                 MySqlCommand Command = Connection.CreateCommand();
                 // @id is replaced with a id
                 Command.CommandText = "select * from teachers where teacherid=@id";
