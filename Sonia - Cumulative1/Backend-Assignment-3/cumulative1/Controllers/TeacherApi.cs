@@ -9,7 +9,7 @@ namespace Cumulative1.Controllers
     [ApiController]
     public class TeacherAPIController : Controller
     {
-        // dependency injection of database context
+        // database context
         private readonly SchoolDbContext _context;
 
         public TeacherAPIController(SchoolDbContext context)
@@ -17,13 +17,12 @@ namespace Cumulative1.Controllers
             _context = context;
         }
         /// <summary>
-        /// Returns a list of Teacher(s) in the system
-        /// </summary>
-        /// <example>
-        /// retrieve Teacher list GET api/Teacher/Listteacher -> 
-        /// </example>
+        /// It returns a list of Teachers in the system
+        /// an example
+        /// retrieves Teacher list GET api/Teacher/Listteacher -> 
+        /// 
         /// <returns>
-        /// A list of Teacher(s)
+        /// A list of the Teacher/Teachers
         /// </returns>
 
 
@@ -32,13 +31,13 @@ namespace Cumulative1.Controllers
 
         public List<Teacher> ListTeachers()
         {
-            // Creating an empty list of Teacher
+            // Create an empty list of Teacher
             List<Teacher> Teachers = new List<Teacher>();
             // 'using' will close the connection after the code runs
             using (MySqlConnection Connection = _context.AccessDatabase())
             {
                 Connection.Open();
-                //create a new query for our DB
+                //create new query for our DB
                 MySqlCommand Command = Connection.CreateCommand();
 
                 //SQL QUERY
@@ -49,7 +48,7 @@ namespace Cumulative1.Controllers
                     //Loop through each row from the results
                     while (ResultSet.Read())
                     {
-                        //retrieve column information by the DB column name as an index
+                        //retrieve the column info by the DataBase column name as an index
                         int TeacherId = Convert.ToInt32(ResultSet["teacherid"]);
                         string TeacherFName = ResultSet["teacherfname"].ToString();
                         string TeacherLName = ResultSet["teacherlname"].ToString();
@@ -57,7 +56,7 @@ namespace Cumulative1.Controllers
                         DateTime hiredate = Convert.ToDateTime(ResultSet["hiredate"]);
                         double salary = Convert.ToDouble(ResultSet["salary"]);
 
-                        //short cut  to set all properties while creating an object
+                        //short cut to set all properties while creating an object
                         Teacher CurrentTeacher = new Teacher()
                         {
                             TeacherId = TeacherId,
@@ -75,7 +74,7 @@ namespace Cumulative1.Controllers
             }
 
 
-            //Return the final list of teachers
+            //Returning the final list of teachers
             return Teachers;
 
 
@@ -83,12 +82,11 @@ namespace Cumulative1.Controllers
         /// <summary>
         /// Returns a Teacher from the DB by their ID
         /// </summary>
-        /// <example>
+        /// an example
         /// GET api/Teacher/FindTeacher/7 -> 
-        /// </example>
-        /// <returns>
-        /// A matching Teacher  by their ID. Empty results if teacher not found
-        /// </returns>
+        ///Returns
+        /// Matching a Teacher by their ID. Empty results if teacher is not found
+        
 
         [HttpGet]
         [Route(template: "FindTeacher/{id}")]
@@ -101,15 +99,15 @@ namespace Cumulative1.Controllers
             using (MySqlConnection Connection = _context.AccessDatabase())
             {
                 Connection.Open();
-                //Establish a new command (query) for our database
+                //Established a new command (query) for our database
                 MySqlCommand Command = Connection.CreateCommand();
                 // @id is replaced with a id
                 Command.CommandText = "select * from teachers where teacherid=@id";
                 Command.Parameters.AddWithValue("@id", id);
-                // Gather results of the query into a variable
+                // Collect results of the query into a variable
                 using (MySqlDataReader ResultSet = Command.ExecuteReader())
                 {
-                    //Loop Through Each Row of the result
+                    //Each Row of the result Loop though
                     while (ResultSet.Read())
                     {
                         int TeacherId = Convert.ToInt32(ResultSet["teacherid"]);
