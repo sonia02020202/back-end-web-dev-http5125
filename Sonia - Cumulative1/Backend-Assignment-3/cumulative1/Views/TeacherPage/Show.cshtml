@@ -1,0 +1,10 @@
+﻿@model Cumulative1.Models.Teacher
+
+
+<div class="teacher-container">
+    <h1 class="teacher-name">@Model.TeacherFName @Model.TeacherLName</h1>
+
+    <p class="teacher-details">Employee Number: @Model.EmployeeNumber</p>
+    <p class="teacher-details">Hire Date: @Model.hiredate.ToString("MMMM dd, yyyy")</p>
+    <p class="teacher-details">Salary: $@Model.salary</p>
+</div>

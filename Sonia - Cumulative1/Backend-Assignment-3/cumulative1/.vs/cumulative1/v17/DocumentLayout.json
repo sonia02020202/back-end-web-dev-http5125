@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\views\\teacherpage\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:views\\teacherpage\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\views\\teacherpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:views\\teacherpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\controllers\\teacherapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:controllers\\teacherapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:models\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|c:\\users\\admin\\desktop\\backend-assignment-3-main (1)\\backend-assignment-3-main\\cumulative1\\controllers\\teacherpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BADB465-C6C8-4AF7-91FA-EA45171E6CDD}|cumulative1.csproj|solutionrelative:controllers\\teacherpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Models\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\SchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Models\\SchoolDbContext.cs",
+              "RelativeToolTip": "Models\\SchoolDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:11:09.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeacherPageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Controllers\\TeacherPageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherPageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Controllers\\TeacherPageController.cs",
+              "RelativeToolTip": "Controllers\\TeacherPageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:45:54.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Models\\Teacher.cs",
+              "RelativeToolTip": "Models\\Teacher.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:23:37.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeacherApi.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Controllers\\TeacherApi.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherApi.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Controllers\\TeacherApi.cs",
+              "RelativeToolTip": "Controllers\\TeacherApi.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:21:34.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:05:32.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Views\\TeacherPage\\Show.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeacherPage\\Show.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Views\\TeacherPage\\Show.cshtml",
+              "RelativeToolTip": "Views\\TeacherPage\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:38:32.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Views\\TeacherPage\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeacherPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Views\\TeacherPage\\List.cshtml",
+              "RelativeToolTip": "Views\\TeacherPage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:37:21.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Backend-Assignment-3-main (1)\\Backend-Assignment-3-main\\cumulative1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:42:22.116Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
