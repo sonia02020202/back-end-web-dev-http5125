@@ -1,0 +1,227 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Models\\SchoolDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\SchoolDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Models\\Teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\ConfirmDelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\TeacherPage\\ConfirmDelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\TeacherPageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\TeacherPageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\New.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\TeacherPage\\New.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\TeacherAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\TeacherAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\TeacherPage\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorPageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorAPIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\Show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\TeacherPage\\Show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\TeacherAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\TeacherAPIController.cs",
+              "RelativeToolTip": "Controllers\\TeacherAPIController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAowIQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:21:34.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\New.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeacherPage\\New.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\New.cshtml",
+              "RelativeToolTip": "Views\\TeacherPage\\New.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T21:54:29.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherPageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\TeacherPageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherPageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\TeacherPageController.cs",
+              "RelativeToolTip": "Controllers\\TeacherPageController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswD0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:45:54.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfirmDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\ConfirmDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeacherPage\\ConfirmDelete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\ConfirmDelete.cshtml",
+              "RelativeToolTip": "Views\\TeacherPage\\ConfirmDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T21:53:59.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Models\\Teacher.cs",
+              "RelativeToolTip": "Models\\Teacher.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:23:37.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Models\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\SchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Models\\SchoolDbContext.cs",
+              "RelativeToolTip": "Models\\SchoolDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:11:09.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeacherPage\\List.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\List.cshtml",
+              "RelativeToolTip": "Views\\TeacherPage\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:37:21.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\Show.cshtml",
+              "RelativeDocumentMoniker": "Views\\TeacherPage\\Show.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\TeacherPage\\Show.cshtml",
+              "RelativeToolTip": "Views\\TeacherPage\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:38:32.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorPageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorPageController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorPageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorPageController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorPageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:05:33.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthorAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorAPIController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorAPIController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\CoreBlog-add-delete-functionality\\CoreBlog-add-delete-functionality\\Blog\\Controllers\\AuthorAPIController.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:04:33.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T19:32:16.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:05:32.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\5125 BACK-END WEB DEVELOP\\Sonia - Cumulative2\\Backend-Assignment-3\\cumulative1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:42:22.116Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
