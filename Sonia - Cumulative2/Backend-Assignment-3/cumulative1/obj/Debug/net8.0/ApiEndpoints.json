@@ -74,18 +74,28 @@
   {
     "ContainingType": "Cumulative1.Controllers.TeacherAPIController",
     "Method": "DeleteTeacher",
-    "RelativePath": "api/TeacherAPI/DeleteTeacher/{id}",
+    "RelativePath": "api/TeacherAPI/DeleteTeacher/{TeacherId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "TeacherId",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Cumulative1.Controllers.TeacherAPIController",

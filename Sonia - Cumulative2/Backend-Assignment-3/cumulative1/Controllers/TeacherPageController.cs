@@ -63,13 +63,9 @@ namespace Cumulative1.Controllers
         [HttpPost]
         public IActionResult Delete(int id)
         {
-            var result = _api.DeleteTeacher(id);
-
-         
-            {
-                
-                return View();
-            }
+            int TeacherId = _api.DeleteTeacher(id);
+            // redirects to list action
+            return RedirectToAction("List");
         }
     }
 }

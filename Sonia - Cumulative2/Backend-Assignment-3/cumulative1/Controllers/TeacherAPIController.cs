@@ -124,26 +124,24 @@ namespace Cumulative1.Controllers
         /// </summary>
         /// <param name="id">The ID of the teacher to be deleted</param>
         /// <returns>Status of the deletion</returns>
-        [HttpDelete("DeleteTeacher/{id}")]
-        public ActionResult DeleteTeacher(int id)
+        [HttpDelete(template: "DeleteTeacher/{TeacherId}")]
+        public int DeleteTeacher(int TeacherId)
         {
-            using (MySqlConnection connection = _context.AccessDatabase())
+            // 'using' will close the connection after the code executes
+            using (MySqlConnection Connection = _context.AccessDatabase())
             {
-                connection.Open();
-                MySqlCommand command = connection.CreateCommand();
-                command.CommandText = "DELETE FROM teachers WHERE teacherid = @id";
-                command.Parameters.AddWithValue("@id", id);
+                Connection.Open();
+                //Establish a new command (query) for our database
+                MySqlCommand Command = Connection.CreateCommand();
 
-                int rowsAffected = command.ExecuteNonQuery();
-                if (rowsAffected > 0)
-                {
-                    return Ok("Teacher deleted successfully");
-                }
-                else
-                {
-                    return NotFound("Teacher not found");
-                }
+
+                Command.CommandText = "delete from teachers where teacherid=@id";
+                Command.Parameters.AddWithValue("@id", TeacherId);
+                return Command.ExecuteNonQuery();
+
             }
+            // if failure
+            return 0;
         }
     }
 }

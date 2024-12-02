@@ -8,7 +8,7 @@
     Hire Date: @Model.hiredate.ToString("MMMM dd, yyyy")
 </p>
 
-<form asp-action="Delete" method="post">
+<form action="/TeacherPage/Delete/@Model.TeacherId"  method="post">
     <input type="hidden" name="id" value="@Model.TeacherId" />
     <button type="submit" class="btn btn-danger">Delete</button>
     <a href="/TeacherPage/Show/@Model.TeacherId" class="btn btn-secondary">Cancel</a>
