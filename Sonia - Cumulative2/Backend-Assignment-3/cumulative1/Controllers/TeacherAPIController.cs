@@ -143,5 +143,32 @@ namespace Cumulative1.Controllers
             // if failure
             return 0;
         }
+        [HttpPut("TeacherUpdate/{TeacherId}")]
+        public IActionResult UpdateTeacher(int TeacherId, [FromBody] Teacher TeacherData)
+        {
+
+            // 'using' will close the connection after the code executes
+            using (MySqlConnection Connection = _context.AccessDatabase())
+            {
+                Connection.Open();
+                //Establish a new command (query) for our database
+                MySqlCommand Command = Connection.CreateCommand();
+
+                // parameterize query
+                Command.CommandText = "UPDATE teachers SET teacherfname=@teacherfname, teacherlname=@teacherlname, employeenumber=@employeenumber, hiredate=@hiredate, salary=@salary WHERE teacherid=@id";
+                Command.Parameters.AddWithValue("@teacherfname", TeacherData.TeacherFName);
+                Command.Parameters.AddWithValue("@teacherlname", TeacherData.TeacherLName);
+                Command.Parameters.AddWithValue("@employeenumber", TeacherData.EmployeeNumber);
+                Command.Parameters.AddWithValue("@hiredate", TeacherData.hiredate);
+                Command.Parameters.AddWithValue("@salary", TeacherData.salary);
+                Command.Parameters.AddWithValue("@id", TeacherId);
+
+                Command.ExecuteNonQuery();
+
+                return Ok(FindTeacher(TeacherId)); // Assuming FindTeacher returns the updated teacher
+            }
+
+        }
+
     }
 }

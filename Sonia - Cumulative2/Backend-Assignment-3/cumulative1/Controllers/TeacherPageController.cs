@@ -67,5 +67,35 @@ namespace Cumulative1.Controllers
             // redirects to list action
             return RedirectToAction("List");
         }
+        // GET: TeacherPage/Edit
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Teacher SelectedTeacher = _api.FindTeacher(id);
+            return View(SelectedTeacher);
+        }
+
+        // PUT: TeacherPage/Update{id}
+
+        [HttpPost]
+        public IActionResult Update(int id, string TeacherFName, string TeacherLName, string EmployeeNumber, double salary, DateTime hireDate)
+        {
+
+            Teacher updatedTeacher = new Teacher
+            {
+                TeacherFName = TeacherFName,
+                TeacherLName = TeacherLName,
+                EmployeeNumber = EmployeeNumber,
+                salary = salary,
+                hiredate = hireDate
+            };
+
+
+            _api.UpdateTeacher(id, updatedTeacher);
+
+            // Redirect to show teacher details
+            return RedirectToAction("Show", new { id = id });
+        }
     }
 }
