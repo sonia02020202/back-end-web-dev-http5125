@@ -124,6 +124,7 @@ namespace Cumulative1.Controllers
         /// </summary>
         /// <param name="id">The ID of the teacher to be deleted</param>
         /// <returns>Status of the deletion</returns>
+        
         [HttpDelete(template: "DeleteTeacher/{TeacherId}")]
         public int DeleteTeacher(int TeacherId)
         {
@@ -131,7 +132,9 @@ namespace Cumulative1.Controllers
             using (MySqlConnection Connection = _context.AccessDatabase())
             {
                 Connection.Open();
-                //Establish a new command (query) for our database
+                
+                //A new command for our database
+
                 MySqlCommand Command = Connection.CreateCommand();
 
 
@@ -147,14 +150,17 @@ namespace Cumulative1.Controllers
         public IActionResult UpdateTeacher(int TeacherId, [FromBody] Teacher TeacherData)
         {
 
-            // 'using' will close the connection after the code executes
+            // 'using' will close the connection after the code is executed
+
             using (MySqlConnection Connection = _context.AccessDatabase())
+
             {
                 Connection.Open();
                 //Establish a new command (query) for our database
+               
                 MySqlCommand Command = Connection.CreateCommand();
 
-                // parameterize query
+                //  query
                 Command.CommandText = "UPDATE teachers SET teacherfname=@teacherfname, teacherlname=@teacherlname, employeenumber=@employeenumber, hiredate=@hiredate, salary=@salary WHERE teacherid=@id";
                 Command.Parameters.AddWithValue("@teacherfname", TeacherData.TeacherFName);
                 Command.Parameters.AddWithValue("@teacherlname", TeacherData.TeacherLName);
@@ -165,7 +171,8 @@ namespace Cumulative1.Controllers
 
                 Command.ExecuteNonQuery();
 
-                return Ok(FindTeacher(TeacherId)); // Assuming FindTeacher returns the updated teacher
+                return Ok(FindTeacher(TeacherId)); 
+                // Find Teacher returns the updated teacher
             }
 
         }

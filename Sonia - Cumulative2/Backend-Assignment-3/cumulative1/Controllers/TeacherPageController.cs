@@ -81,6 +81,7 @@ namespace Cumulative1.Controllers
         [HttpPost]
         public IActionResult Update(int id, string TeacherFName, string TeacherLName, string EmployeeNumber, double salary, DateTime hireDate)
         {
+            //update
 
             Teacher updatedTeacher = new Teacher
             {
@@ -94,7 +95,8 @@ namespace Cumulative1.Controllers
 
             _api.UpdateTeacher(id, updatedTeacher);
 
-            // Redirect to show teacher details
+            // Redirected to show the teacher details
+
             return RedirectToAction("Show", new { id = id });
         }
     }
