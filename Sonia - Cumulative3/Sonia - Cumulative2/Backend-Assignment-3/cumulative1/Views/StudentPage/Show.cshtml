@@ -1,0 +1,12 @@
+﻿@model Cumulative1.Models.Student
+
+
+<div>
+    <h1 class="student-name">@Model.StudentFName @Model.StudentLName</h1>
+    <p class="student-details">
+        <span class="student-info">Student Number:</span> @Model.StudentNumber
+    </p>
+    <p class="student-details">
+        <span class="student-info">Enrollment Date:</span> @Model.enroldate.ToString("MMMM dd, yyyy")
+    </p>
+</div> 

@@ -1,0 +1,110 @@
+﻿@model Cumulative1.Models.Teacher
+
+
+
+{
+    <style>
+        .teacher-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: purple;
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: lightpink;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .teacher-details {
+            font-size: 18px;
+            color: maroon;
+            margin: 10px 0;
+        }
+
+        .teacher-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: lightpink;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .teacher-fields {
+            font-weight: bold;
+            color: darkblue;
+            font-size: 18px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: lightpink; /* Light blue background for the nav section */
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .links a {
+                font-weight: bold;
+                font-size: 16px;
+                color: darkmagenta; /* Default text color for links */
+                text-decoration: none; /* Remove underline for a clean look */
+                padding: 8px 15px;
+                border: 2px solid transparent; /* Adds spacing and hover effect */
+                border-radius: 5px;
+                transition: all 0.3s ease-in-out; /* Smooth transition effect */
+            }
+
+                .links a:hover {
+                    background-color: maroon; /* Dark blue background on hover */
+                    color: white; /* White text on hover */
+                    border-color: lightpink; /* Light cyan border on hover */
+                }
+
+                .links a:active {
+                    transform: scale(0.98); /* Slight scaling effect for click */
+                }
+
+            .links span {
+                display: inline-block;
+                margin: 0 10px; /* Spacing between links */
+            }
+
+        .link1 .link2 .link3{
+            background-color: lightpink;
+
+
+        }
+    </style>
+<div class="teacher-container">
+    <!-- Display the teacher's full name -->
+    <h1 class="teacher-name">@Model.TeacherFName @Model.TeacherLName</h1>
+
+
+    <nav class="links">
+        <span class="link1">
+            <a href="/TeacherPage/DeleteConfirm/@Model.TeacherId">Delete</a>
+        </span>
+        <span class="link2">
+            <a href="/TeacherPage/Edit/@Model.TeacherId">Edit</a>
+        </span>
+        <span class="link3">
+            <a href="/TeacherPage/List">Back to List</a>
+        </span>
+    </nav>
+
+
+    <!-- Display teacher details -->
+    <p class="teacher-details">
+        <span class="teacher-fields">Employee Number:</span> @Model.EmployeeNumber
+    </p>
+    <p class="teacher-details">
+        <span class="teacher-fields">Hire Date:</span> @Model.hiredate.ToString("MMMM dd, yyyy")
+    </p>
+    <p class="teacher-details">
+        <span class="teacher-fields">Salary:</span> $@Model.salary
+    </p>
+
+</div>

@@ -1,0 +1,15 @@
+﻿@model Cumulative1.Models.Teacher
+
+<h1>Confirm Delete</h1>
+<p>Are you sure you want to delete this teacher?</p>
+<p>
+    Name: @Model.TeacherFName @Model.TeacherLName<br />
+    Employee Number: @Model.EmployeeNumber<br />
+    Hire Date: @Model.hiredate.ToString("MMMM dd, yyyy")
+</p>
+
+<form action="/TeacherPage/Delete/@Model.TeacherId"  method="post">
+    <input type="hidden" name="id" value="@Model.TeacherId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="/TeacherPage/Show/@Model.TeacherId" class="btn btn-secondary">Cancel</a>
+</form>
