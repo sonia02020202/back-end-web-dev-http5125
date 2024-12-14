@@ -1,19 +1,30 @@
-CUMULATIVE 2 ASSIGNMENT
+Cumulative 3
 
-UPLOADED 
+Updated Teacher information
 
-CREATED TEACHERS API PAGE
+Salary
 
-ADDED MYSELF AS A TEACHER NAME
+added - Edit.cshtml page
 
-ADDED DELETED TEACHER
+API which Updates a Teacher
 
-Deleted Teacher
+Web page that allows a user to enter updated Teacher information
 
-Added Testing PDF
+Summary blocks added of my method
 
-Added testing for adding a teacher,
+Teacher Model properties added.
 
-Deleted Teacher number 1
+Varable names added
 
-Created confirmDelete.cshtml file, view file, ErrorViewModel.cs
+Read me file added.
+
+API  updates a Teacher using the HTTP PUT method
+
+web page does allows a user to enter updated Teacher information
+
+Testing C3 using PUT method added
+
+Testing 
+
+Update add and delete.
+
