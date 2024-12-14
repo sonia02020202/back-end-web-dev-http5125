@@ -14,9 +14,17 @@ namespace Cumulative1.Controllers
             _api = api;
         }
 
+        /// <summary>
+        /// Lists all teachers.
+        /// </summary>
+        /// <returns>A view displaying the list of teachers.</returns>
+        /// <example>
+        /// GET: TeacherPage/List
+        /// </example>
         // List all teachers (GET: TeacherPage/List)
         public IActionResult List()
         {
+           //Fetches The list of teachers using the API
             List<Teacher> teachers = _api.ListTeachers();
             return View(teachers);
         }
@@ -55,6 +63,8 @@ namespace Cumulative1.Controllers
         // Confirm deletion of teacher (GET: TeacherPage/ConfirmDelete/{id})
         public IActionResult ConfirmDelete(int id)
         {
+
+        //Fetches the teachers current details using the API
             Teacher selectedTeacher = _api.FindTeacher(id);
             return View(selectedTeacher);
         }
@@ -77,11 +87,25 @@ namespace Cumulative1.Controllers
         }
 
         // PUT: TeacherPage/Update{id}
-
+/// <summary>
+/// Updates a teacher's details and redirects to the Show page for the teacher.
+/// </summary>
+/// <param name="id">The ID of the teacher to update.</param>
+/// <param name="TeacherFName">The updated first name.</param>
+/// <param name="TeacherLName">The updated last name.</param>
+/// <param name="EmployeeNumber">The updated employee number.</param>
+/// <param name="salary">The updated salary.</param>
+/// <param name="hireDate">The updated hire date.</param>
+/// <returns>A redirection to the Show page for the updated teacher.</returns>
+/// <example>
+/// POST: TeacherPage/Update/1
+/// Body: { "TeacherFName": "Jane", "TeacherLName": "Smith", "EmployeeNumber": "E54321", "salary": 55000, "hireDate": "2024-01-01" }
+/// </example>
+        
         [HttpPost]
         public IActionResult Update(int id, string TeacherFName, string TeacherLName, string EmployeeNumber, double salary, DateTime hireDate)
         {
-            //update
+            // Creates a new Teacher object with updated details
 
             Teacher updatedTeacher = new Teacher
             {
