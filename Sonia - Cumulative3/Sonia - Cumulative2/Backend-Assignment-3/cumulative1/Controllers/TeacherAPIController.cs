@@ -146,6 +146,17 @@ namespace Cumulative1.Controllers
             // if failure
             return 0;
         }
+         /// <summary>
+ /// Updates an existing teacher's details in the database.
+ /// </summary>
+ /// <param name="TeacherId">The ID of the teacher to update.</param>
+ /// <param name="TeacherData">The updated teacher data.</param>
+ /// <returns>The updated Teacher object.</returns>
+ /// <example>
+ /// PUT: api/TeacherAPI/TeacherUpdate/1
+ /// Body: { "TeacherFName": "Jane", "TeacherLName": "Doe", "EmployeeNumber": "E54321", "hiredate": "2024-01-01", "salary": 55000 }
+ /// </example>
+ 
         [HttpPut("TeacherUpdate/{TeacherId}")]
         public IActionResult UpdateTeacher(int TeacherId, [FromBody] Teacher TeacherData)
         {
